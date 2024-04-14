@@ -2,9 +2,11 @@
   "name": "chat-web",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "index.html",
   "scripts": {
-    "dev": "npx parcel src/index.html --port 7777"
+    "start": "node index.js",
+    "dev": "parcel index.html --port 7777",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
